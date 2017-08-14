@@ -52,6 +52,8 @@ MRuby::Build.new('host') do |conf|
   # Linux only for ngx_mruby
   # conf.gem :github => 'matsumotory/mruby-capability'
   # conf.gem :github => 'matsumotory/mruby-cgroup'
+  conf.gem :github => 'mattn/mruby-base64'
+  conf.gem :github => 'mattn/mruby-curl'
 
 end
 
